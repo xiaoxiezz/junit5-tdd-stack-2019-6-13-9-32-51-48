@@ -7,7 +7,12 @@ public class FizzBuzzNumberGame {
 	}
 	public String fizzBuzz(int number) {
 		// TODO Auto-generated method stub
-		return "1";
+		if(number==3) {
+			return "fizz";
+		}
+		else {
+			return null;
+		}
 	}
 
 }
